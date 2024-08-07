@@ -1,0 +1,33 @@
+.payment-page {
+    font-family: 'Arial, sans-serif';
+}
+
+.payment-container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    /* background: linear-gradient(to right, #e0f7fa, #e1bee7); */
+    border-radius: 8px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+.payment-form {
+    margin-top: 20px;
+}
+
+.card-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+button[type="submit"] {
+    margin-top: 20px;
+    background-color: #0E86A9;
+    color: white;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+button[type="submit"]:hover {
+    background-color: #0d7390;
+}
