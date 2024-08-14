@@ -1,0 +1,51 @@
+.bill-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.bill-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 80vh; /* Adjust as needed */
+}
+
+.bill-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 80%;
+    max-width: 600px; /* Adjust as needed */
+    text-align: left;
+}
+
+.bill-details {
+    margin-bottom: 20px;
+}
+
+.field {
+    color: #0E86A9;
+}
+
+.detail {
+    color: #000000;
+}
+
+.pay-button {
+    background-color: #0E86A9;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.pay-button:hover {
+    background-color: #0b6d8f;
+}

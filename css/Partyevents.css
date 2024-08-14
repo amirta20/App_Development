@@ -1,0 +1,171 @@
+.one
+{
+    background-color: #0E86A9;
+    height: 40px;
+    width: 100%;
+    color: white;
+    margin: 10px;
+}
+.text
+{
+    text-align: center;
+    padding-top: 8px;
+}
+.party-image {
+    width: 100%; /* Ensures the image spans the full width of its container */
+    height: 500px; /* Fixed height */
+    object-fit: cover; /* Ensures the image covers the container without distortion */
+    opacity: 0.6; /* Maintain the opacity */
+}
+
+.image-container {
+    position: relative;
+    width: 100%; /* Ensures the container spans the full width */
+    /* Remove max-width if you want it to take full width */
+    /* max-width: 600px; */
+}
+
+/* .party-image {
+    width: 4000px;
+    height: 500px;
+    display: block;
+} */
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.text-overlay h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.text-overlay p {
+    margin: 0;
+    font-size: 1em;
+}
+
+.details-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start;
+    padding: 20px;
+    gap: 30px;
+    /* /* background-color: #f5f5f5; 
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd; */
+} 
+
+.left-text {
+    flex: 1; 
+    padding-right: 20px;
+    width: 50px;
+}
+
+.left-text h2 {
+    margin-top: 0;
+    font-size: 2em;
+    color: #333;
+}
+
+.left-text p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.details-section {
+    flex: 1; 
+    max-width: 700px; 
+}
+
+.details-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.details-section label {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: #555;
+}
+
+.details-section input,
+.details-section textarea {
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 1em;
+    border: none; 
+    border-bottom: 2px solid #ccc; 
+    width: 100%;
+    box-sizing: border-box;
+    background-color: transparent;
+    transition: border-color 0.3s; 
+}
+
+.details-section input:focus,
+.details-section textarea:focus {
+    border-bottom-color: #0066cc; 
+    outline: none;
+}
+
+.details-section button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: #0E86A9;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.details-section button:hover {
+    background-color:#0E86A9;
+}
+.paragraph {
+    text-align: justify;
+    margin: 20px 0; 
+    /* line-height: 1.6;  */
+}
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); 
+    gap: 30px; 
+    margin-top: 20px; 
+}
+
+.grid-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover; 
+    border-radius: 8px; 
+}
+/* Example styles similar to Corpevents page */
+
+/* Add these styles to your Partyevents.css file */
+.event-name-select {
+    width: 100%; /* Adjust as needed */
+    padding: 10px; /* Adjust padding for better appearance */
+    border: 1px solid #ddd; /* Border style */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    background-color: #fff; /* Background color */
+    color: #333; /* Text color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transitions */
+}
+
+.event-name-select:focus {
+    border-color: #0E86A9; /* Border color on focus */
+    box-shadow: 0 0 0 3px rgba(14, 134, 169, 0.2); /* Focus shadow */
+    outline: none; /* Remove default outline */
+}
+
