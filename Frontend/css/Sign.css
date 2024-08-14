@@ -1,0 +1,43 @@
+
+.body
+{
+  background-color: #FFFFFF;
+}
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px; 
+}
+
+.cursive-text {
+  font-family: 'Cursive', sans-serif;
+}
+
+.input-line {
+  border-bottom: 1px solid #0E86A9;
+}
+
+.input-line input {
+  border: none;
+}
+
+.image-container img {
+  max-width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+}
+
+.form-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px; 
+}
